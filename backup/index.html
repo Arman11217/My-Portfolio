@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <!-- Primary Meta Tags -->
+  <title>Arman Hossain | Software Engineer & CSE Student</title>
+  <meta name="title" content="Arman Hossain | Software Engineer & CSE Student" />
+  <meta name="description" content="Portfolio of Arman Hossain - Computer Science & Engineering Student at PSTU, Software Engineer specializing in Flutter, AI/ML, C# .NET, FastAPI, and IoT Systems." />
+  <meta name="keywords" content="Arman Hossain, Software Engineer, Flutter Developer, AI ML, IoT, PSTU, Bangladesh, Portfolio, VitalSense, ElektroVote, ShebaBondhu" />
+  <meta name="author" content="Arman Hossain" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Arman Hossain | Software Engineer & CSE Student" />
+  <meta property="og:description" content="Explore projects, skills, and research by Arman Hossain across AI/ML, Flutter, .NET, IoT, and Full-Stack Development." />
+  <meta property="og:image" content="assets/images/IMG_4449-removebg-preview.png" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+  <!-- Ambient Lighting Background -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-name">Arman<span class="highlight">.dev</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" title="Toggle Theme" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="btn btn-sm btn-outline-nav" id="openResumeBtn" title="View Resume">
+          <i class="fa-solid fa-file-invoice"></i> Resume
+        </button>
+        <a href="#contact" class="btn-talk">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Floating Kinetic Side Rail (Luxury Morphing Orbit) -->
+  <aside class="kinetic-side-rail" id="kineticSideRail" aria-label="Section Journey">
+    <div class="rail-filament-track">
+      <div class="rail-filament-glow" id="railFilamentGlow"></div>
+    </div>
+    <nav class="rail-nodes" id="railNodes">
+      <a href="#projects" class="rail-node" data-section="projects" title="Featured Projects">
+        <div class="rail-node-badge">
+          <span class="rail-pulse-beacon"></span>
+          <span class="rail-node-icon"><i class="fa-solid fa-shapes"></i></span>
+          <div class="rail-node-content">
+            <span class="rail-node-label">Projects</span>
+          </div>
+        </div>
+        <span class="rail-node-tooltip">Projects</span>
+      </a>
+
+      <a href="#skills" class="rail-node" data-section="skills" title="Technical Arsenal">
+        <div class="rail-node-badge">
+          <span class="rail-pulse-beacon"></span>
+          <span class="rail-node-icon"><i class="fa-solid fa-microchip"></i></span>
+          <div class="rail-node-content">
+            <span class="rail-node-label">Skills</span>
+          </div>
+        </div>
+        <span class="rail-node-tooltip">Skills</span>
+      </a>
+
+      <a href="#experience" class="rail-node" data-section="experience" title="Experience & Credentials">
+        <div class="rail-node-badge">
+          <span class="rail-pulse-beacon"></span>
+          <span class="rail-node-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+          <div class="rail-node-content">
+            <span class="rail-node-label">Experience</span>
+          </div>
+        </div>
+        <span class="rail-node-tooltip">Experience</span>
+      </a>
+
+      <a href="#contact" class="rail-node" data-section="contact" title="Get in Touch">
+        <div class="rail-node-badge">
+          <span class="rail-pulse-beacon"></span>
+          <span class="rail-node-icon"><i class="fa-regular fa-paper-plane"></i></span>
+          <div class="rail-node-content">
+            <span class="rail-node-label">Contact</span>
+          </div>
+        </div>
+        <span class="rail-node-tooltip">Contact</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span>Hello, I am</span>
+          </div>
+
+          <h1 class="hero-title">
+            Arman Hossain
+          </h1>
+
+          <div class="hero-role-title">
+            Full Stack Software Developer
+          </div>
+
+          <div class="typewriter-box">
+            <span class="typewriter-prefix">Specialized in </span>
+            <span class="typewriter-text" id="typewriterText"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+              Building elegant software with clean code. Driven by curiosity and dedicated to solving real-world problems through modern technologies across AI/ML, mobile and web development, backend systems, and IoT.          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-pill-dark" id="heroResumeBtn">
+              <i class="fa-solid fa-download"></i>
+              <span>Download Resume</span>
+            </button>
+            <a href="#projects" class="btn btn-pill-white">
+              <i class="fa-regular fa-folder-open"></i>
+              <span>Explore Projects</span>
+            </a>
+            <a href="#contact" class="btn btn-pill-ghost">
+              <i class="fa-regular fa-paper-plane"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <a href="https://github.com/Arman11217" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub (Arman11217)" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/arman-hossain-59656932a/" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:ahrashel1213@gmail.com" class="social-icon" title="Email: ahrashel1213@gmail.com" aria-label="Email">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a href="https://www.facebook.com/ArmanHossain.26" target="_blank" rel="noopener noreferrer" class="social-icon" title="Facebook" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/8801793543783" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp (+8801793543783)" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-person-wrapper">
+            <div class="hero-aura-glow"></div>
+            <div class="hero-aura-glow aura-secondary"></div>
+            <img src="assets/images/IMG_4449-removebg-preview.png" alt="Arman Hossain" class="hero-person-img" id="heroProfileImg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">WHO I AM</span>
+          <h2 class="section-title">Bridging Code, Hardware, and <span class="gradient-text">Artificial Intelligence</span></h2>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card story-card">
+            <div class="card-icon-bubble"><i class="fa-solid fa-user-astronaut"></i></div>
+            <h3 class="card-title">My Journey & Passion</h3>
+            <p>
+              I am a dedicated <strong>Computer Science & Engineering student</strong> and software engineer with a strong enthusiasm for creating impactful digital solutions. I don't just write code; I architect systems that bridge the gap between high-level intelligence and physical hardware.
+            </p>
+            <p>
+              From developing deep learning models for medical health prediction to building university-wide Learning Management Systems in <strong>Flutter</strong> and <strong>C# / .NET</strong>, my goal is to build scalable, fault-tolerant, and user-friendly software that solves real-world challenges.
+            </p>
+            <div class="key-facts">
+              <div class="fact-item">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <div>
+                  <strong>Education</strong>
+                  <p>B.Sc. in Computer Science & Engineering (PSTU)</p>
+                </div>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <strong>Location</strong>
+                  <p>Bangladesh (Open to Remote / Onsite)</p>
+                </div>
+              </div>
+              <div class="fact-item">
+                <i class="fa-solid fa-terminal"></i>
+                <div>
+                  <strong>Core Focus</strong>
+                  <p>AI/ML, Flutter, .NET, IoT & Embedded Systems</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-highlights-wrapper">
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+              <div class="highlight-text">
+                <h4>Applied AI & Machine Learning</h4>
+                <p>Developing CNN architectures and predictive healthcare pipelines using TensorFlow and Keras.</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-layer-group"></i></div>
+              <div class="highlight-text">
+                <h4>Full-Stack & Cross-Platform</h4>
+                <p>Crafting performant mobile apps with Flutter, web APIs with FastAPI & ASP.NET, and reactive frontends.</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-microchip"></i></div>
+              <div class="highlight-text">
+                <h4>IoT & Edge Intelligence</h4>
+                <p>Integrating ESP32, Arduino, Raspberry Pi, and bio-sensors with cloud databases and live web telemetry.</p>
+              </div>
+            </div>
+
+            <div class="highlight-box">
+              <div class="highlight-icon"><i class="fa-solid fa-trophy"></i></div>
+              <div class="highlight-text">
+                <h4>Competitive Mindset & Research</h4>
+                <p>Sharpening algorithms through competitive programming and actively contributing to academic research.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">MY CREATIONS</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications spanning AI-assisted healthcare, university management systems, digital democracy, and personal assistants.</p>
+          <div class="header-line"></div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai-iot">AI & IoT</button>
+          <button class="filter-btn" data-filter="mobile">Mobile (Flutter)</button>
+          <button class="filter-btn" data-filter="web-desktop">Web & Desktop</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: VitalSense -->
+          <article class="project-card" data-category="ai-iot mobile">
+            <div class="project-media">
+              <img src="assets/images/vitalsense.jpg" alt="VitalSense AI Health Monitoring System" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://github.com/Arman11217/VitalSense-AI-Powered-Remote-Health-Monitoring-App.git" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+              <span class="project-badge badge-featured"><i class="fa-solid fa-star"></i> Featured AI/IoT</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">AI / ML</span>
+                <span class="tag">IoT Sensors</span>
+                <span class="tag">Flutter</span>
+                <span class="tag">HealthTech</span>
+              </div>
+              <h3 class="project-title">VitalSense — Remote Health Monitoring & Disease Prediction</h3>
+              <p class="project-desc">
+                An intelligent end-to-end healthcare system leveraging biometric sensors (heart rate, SpO2, ECG) integrated with AI/Deep Learning models to predict early-stage anomalies and trigger real-time alerts.
+              </p>
+              <div class="project-tech-icons">
+                <span title="Python / TensorFlow"><i class="fa-brands fa-python"></i></span>
+                <span title="Flutter"><i class="fa-solid fa-mobile-screen"></i></span>
+                <span title="ESP32 / Sensors"><i class="fa-solid fa-microchip"></i></span>
+                <span title="Cloud Telemetry"><i class="fa-solid fa-cloud"></i></span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Arman11217/VitalSense-AI-Powered-Remote-Health-Monitoring-App.git" target="_blank" rel="noopener noreferrer" class="project-link primary-link">
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: PSTU Blended Learning Center (Flutter) -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-media">
+              <img src="assets/images/pstu-blc.jpg" alt="PSTU Blended Learning Center Flutter Mobile App" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://github.com/Arman11217/PSTU-Blended-Learning-Center-Flutter-App.git" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+              <span class="project-badge badge-academic"><i class="fa-solid fa-graduation-cap"></i> PSTU Official</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">REST API</span>
+                <span class="tag">Education</span>
+              </div>
+              <h3 class="project-title">PSTU Blended Learning Center — Mobile App</h3>
+              <p class="project-desc">
+                A modern mobile learning application customized for students and faculty of Patuakhali Science and Technology University. Facilitates seamless course enrollment, lecture streaming, assignment submissions, and instant academic notices.
+              </p>
+              <div class="project-tech-icons">
+                <span title="Flutter"><i class="fa-solid fa-mobile-screen"></i></span>
+                <span title="Dart"><i class="fa-solid fa-feather"></i></span>
+                <span title="Firebase / DB"><i class="fa-solid fa-database"></i></span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Arman11217/PSTU-Blended-Learning-Center-Flutter-App.git" target="_blank" rel="noopener noreferrer" class="project-link primary-link">
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: PSTU Blended Learning Center (C# / .NET) -->
+          <article class="project-card" data-category="web-desktop">
+            <div class="project-media">
+              <img src="assets/images/pstu-dotnet.jpg" alt="PSTU Blended Learning Center C# .NET Enterprise System" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://github.com/Arman11217/Blended-Learning-Center.git" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+              <span class="project-badge badge-enterprise"><i class="fa-brands fa-microsoft"></i> C# .NET</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">C#</span>
+                <span class="tag">.NET Framework</span>
+                <span class="tag">SQL Server</span>
+                <span class="tag">Enterprise</span>
+              </div>
+              <h3 class="project-title">PSTU Blended Learning Center — .NET Platform</h3>
+              <p class="project-desc">
+                Enterprise educational management system built with C# and .NET architecture. Handles robust academic administration, role-based access for teachers and students, grades processing, and secure database transactions with SQL Server.
+              </p>
+              <div class="project-tech-icons">
+                <span title="C#"><i class="fa-solid fa-hashtag"></i></span>
+                <span title=".NET"><i class="fa-brands fa-microsoft"></i></span>
+                <span title="SQL Server"><i class="fa-solid fa-server"></i></span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Arman11217/Blended-Learning-Center.git" target="_blank" rel="noopener noreferrer" class="project-link primary-link">
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: ElektroVote -->
+          <article class="project-card" data-category="web-desktop">
+            <div class="project-media">
+              <img src="assets/images/elektrovote.jpg" alt="ElektroVote Secure Online Voting Platform" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://github.com/Arman11217/ElektroVote.git" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+              <span class="project-badge badge-security"><i class="fa-solid fa-shield-halved"></i> Web Security</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">Web Platform</span>
+                <span class="tag">Security</span>
+                <span class="tag">Full-Stack</span>
+                <span class="tag">Real-Time Stats</span>
+              </div>
+              <h3 class="project-title">ElektroVote — Secure Digital Voting Platform</h3>
+              <p class="project-desc">
+                A modern, tamper-resistant digital voting web platform designed to conduct transparent elections. Features strict voter identity verification, encrypted ballot casting, and real-time verifiable election tally visual analytics.
+              </p>
+              <div class="project-tech-icons">
+                <span title="Web Dev"><i class="fa-brands fa-js"></i></span>
+                <span title="Database Security"><i class="fa-solid fa-database"></i></span>
+                <span title="Encrypted Auth"><i class="fa-solid fa-lock"></i></span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Arman11217/ElektroVote.git" target="_blank" rel="noopener noreferrer" class="project-link primary-link">
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: ShebaBondhu -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-media">
+              <img src="assets/images/shebabondhu.jpg" alt="ShebaBondhu Personal Assistant App" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a href="https://github.com/Arman11217/ShebaBondhu-Personal-Assistant-App.git" target="_blank" rel="noopener noreferrer" class="overlay-btn" title="View Source on GitHub">
+                  <i class="fa-brands fa-github"></i> Source Code
+                </a>
+              </div>
+              <span class="project-badge badge-utility"><i class="fa-solid fa-hand-holding-heart"></i> Personal Assistant</span>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="tag">Mobile App</span>
+                <span class="tag">Personal Assistant</span>
+                <span class="tag">Productivity</span>
+                <span class="tag">UI/UX</span>
+              </div>
+              <h3 class="project-title">ShebaBondhu — Smart Personal Assistant</h3>
+              <p class="project-desc">
+                An intuitive personal utility and service concierge application. Designed to simplify daily life through automated task management, service scheduling, reminders, and localized assistance workflows.
+              </p>
+              <div class="project-tech-icons">
+                <span title="Mobile App"><i class="fa-solid fa-mobile-screen"></i></span>
+                <span title="Automation"><i class="fa-solid fa-robot"></i></span>
+                <span title="Cloud Sync"><i class="fa-solid fa-cloud"></i></span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/Arman11217/ShebaBondhu-Personal-Assistant-App.git" target="_blank" rel="noopener noreferrer" class="project-link primary-link">
+                  <span>GitHub Repository</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">MY ARSENAL</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Proficiencies</span></h2>
+          <p class="section-subtitle">A comprehensive view of the programming languages, frameworks, AI libraries, databases, and hardware tools I leverage.</p>
+          <div class="header-line"></div>
+        </div>
+
+        <!-- Filter Tabs for Skills -->
+        <div class="skills-filter-tabs">
+          <button class="skill-tab active" data-filter="all">All Skills</button>
+          <button class="skill-tab" data-filter="languages">Languages</button>
+          <button class="skill-tab" data-filter="frameworks">Frameworks</button>
+          <button class="skill-tab" data-filter="aiml">AI & ML</button>
+          <button class="skill-tab" data-filter="database">Databases</button>
+          <button class="skill-tab" data-filter="iot">IoT / Hardware</button>
+          <button class="skill-tab" data-filter="tools">Dev Tools</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Languages -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-brands fa-python skill-icon python-color"></i>
+              <div>
+                <h4>Python</h4>
+                <span class="skill-level">Advanced • AI, Data, FastAPI</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-solid fa-c skill-icon cpp-color"></i>
+              <div>
+                <h4>C / C++</h4>
+                <span class="skill-level">Proficient • DSA & Algorithms</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-brands fa-java skill-icon java-color"></i>
+              <div>
+                <h4>Java</h4>
+                <span class="skill-level">Solid • OOP & Enterprise Apps</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 82%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-solid fa-hashtag skill-icon csharp-color"></i>
+              <div>
+                <h4>C# (.NET)</h4>
+                <span class="skill-level">Proficient • Desktop & Web Apps</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-brands fa-js skill-icon js-color"></i>
+              <div>
+                <h4>JavaScript</h4>
+                <span class="skill-level">Proficient • Web Development</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 84%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-solid fa-feather skill-icon dart-color"></i>
+              <div>
+                <h4>Dart</h4>
+                <span class="skill-level">Proficient • Flutter Apps</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <i class="fa-brands fa-php skill-icon php-color"></i>
+              <div>
+                <h4>PHP</h4>
+                <span class="skill-level">Working Knowledge • Web Backend</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+          </div>
+
+          <!-- Frameworks -->
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-header">
+              <i class="fa-solid fa-mobile-screen-button skill-icon flutter-color"></i>
+              <div>
+                <h4>Flutter</h4>
+                <span class="skill-level">Advanced • Android & iOS Apps</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-header">
+              <i class="fa-solid fa-bolt skill-icon fastapi-color"></i>
+              <div>
+                <h4>FastAPI</h4>
+                <span class="skill-level">Proficient • High-speed REST APIs</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-header">
+              <i class="fa-brands fa-microsoft skill-icon dotnet-color"></i>
+              <div>
+                <h4>ASP.NET</h4>
+                <span class="skill-level">Proficient • Enterprise Systems</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 82%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="frameworks">
+            <div class="skill-header">
+              <i class="fa-brands fa-react skill-icon react-color"></i>
+              <div>
+                <h4>React</h4>
+                <span class="skill-level">Proficient • Dynamic Web SPAs</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+          </div>
+
+          <!-- AI & ML -->
+          <div class="skill-card" data-category="aiml">
+            <div class="skill-header">
+              <i class="fa-solid fa-brain skill-icon ai-color"></i>
+              <div>
+                <h4>TensorFlow & Keras</h4>
+                <span class="skill-level">Advanced • Deep Learning Models</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="aiml">
+            <div class="skill-header">
+              <i class="fa-solid fa-network-wired skill-icon ai-color"></i>
+              <div>
+                <h4>CNN & Computer Vision</h4>
+                <span class="skill-level">Proficient • Image & Disease Analysis</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="aiml">
+            <div class="skill-header">
+              <i class="fa-solid fa-chart-line skill-icon ml-color"></i>
+              <div>
+                <h4>Machine Learning</h4>
+                <span class="skill-level">Supervised/Unsupervised Learning</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 86%;"></div></div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <i class="fa-solid fa-database skill-icon db-color"></i>
+              <div>
+                <h4>MySQL</h4>
+                <span class="skill-level">Proficient • Relational DB Design</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <i class="fa-solid fa-server skill-icon db-color"></i>
+              <div>
+                <h4>SQL Server & Oracle</h4>
+                <span class="skill-level">Enterprise DB Architecture</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 82%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <i class="fa-solid fa-fire skill-icon firestore-color"></i>
+              <div>
+                <h4>Firestore / Firebase</h4>
+                <span class="skill-level">NoSQL & Realtime Sync</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+          </div>
+
+          <!-- IoT / Hardware -->
+          <div class="skill-card" data-category="iot">
+            <div class="skill-header">
+              <i class="fa-solid fa-wifi skill-icon iot-color"></i>
+              <div>
+                <h4>ESP32 & NodeMCU</h4>
+                <span class="skill-level">WiFi, BLE & IoT Telemetry</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="iot">
+            <div class="skill-header">
+              <i class="fa-solid fa-microchip skill-icon iot-color"></i>
+              <div>
+                <h4>Arduino & Sensors</h4>
+                <span class="skill-level">Biometric, Environmental, Servo</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="iot">
+            <div class="skill-header">
+              <i class="fa-brands fa-raspberry-pi skill-icon rpi-color"></i>
+              <div>
+                <h4>Raspberry Pi</h4>
+                <span class="skill-level">Embedded Linux & Edge Computing</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+          </div>
+
+          <!-- Dev Tools -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <i class="fa-brands fa-git-alt skill-icon git-color"></i>
+              <div>
+                <h4>Git & GitHub</h4>
+                <span class="skill-level">Advanced Version Control & CI</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+          </div>
+
+          <div class="skill-card" data-category="tools">
+            <div class="skill-header">
+              <i class="fa-solid fa-code skill-icon vscode-color"></i>
+              <div>
+                <h4>VS Code & Android Studio</h4>
+                <span class="skill-level">Full Dev Environment & Debugging</span>
+              </div>
+            </div>
+            <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & CERTIFICATES SECTION -->
+    <section class="section certificates-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">CREDENTIALS & EXPERIENCE</span>
+          <h2 class="section-title">Certifications & <span class="gradient-text">Experience</span></h2>
+          <p class="section-subtitle">Validated skills and milestones in software engineering, machine learning, and academic excellence.</p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="certificates-grid">
+          <div class="certificate-card">
+            <div class="cert-img-box">
+              <img src="assets/images/certificate-1.jpg" alt="Applied AI & Deep Learning Certification" class="cert-img" />
+              <div class="cert-zoom-btn" onclick="openCertModal('assets/images/certificate-1.jpg', 'Applied AI & Deep Learning Certification')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-issuer"><i class="fa-solid fa-award"></i> Professional Credential</span>
+              <h4 class="cert-title">Applied AI & Deep Learning Systems</h4>
+              <p class="cert-meta">Verified training in neural network architectures, CNNs, and predictive modeling pipelines.</p>
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            <div class="cert-img-box">
+              <img src="assets/images/certificate-2.jpg" alt="Cross-Platform Software Engineering Certification" class="cert-img" />
+              <div class="cert-zoom-btn" onclick="openCertModal('assets/images/certificate-2.jpg', 'Advanced Software Engineering & Mobile App Development')">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+              </div>
+            </div>
+            <div class="cert-info">
+              <span class="cert-issuer"><i class="fa-solid fa-graduation-cap"></i> Academic & Technical</span>
+              <h4 class="cert-title">Cross-Platform Software Engineering</h4>
+              <p class="cert-meta">Excellence in building cross-platform applications with Flutter, Dart, REST APIs, and backend architectures.</p>
+            </div>
+          </div>
+
+          <div class="certificate-card add-cert-card">
+            <div class="add-cert-content">
+              <i class="fa-solid fa-file-circle-plus"></i>
+              <h4>Your Future Certificates</h4>
+              <p>Place your certificate images in <code>assets/images/</code> to showcase your achievements here.</p>
+              <span class="upload-hint">Customizable in HTML</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH & CURRENT INTERESTS SECTION -->
+    <section class="section interests-section" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">PASSION & VISION</span>
+          <h2 class="section-title">Current Research & <span class="gradient-text">Interests</span></h2>
+          <p class="section-subtitle">The emerging technologies and problem spaces that captivate my intellect and drive my continuous learning.</p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="interests-grid">
+          <div class="interest-card">
+            <div class="interest-icon-box cyan-glow">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="interest-title">Artificial Intelligence & ML</h3>
+            <p class="interest-desc">
+              Investigating deep learning topologies, model optimization, transfer learning, and deploying lightweight intelligence onto edge microcontrollers.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box indigo-glow">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+            <h3 class="interest-title">Computer Vision</h3>
+            <p class="interest-desc">
+              Visual feature extraction, automated medical diagnostic imaging analysis, real-time object tracking, and CNN-driven pattern recognition.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box emerald-glow">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <h3 class="interest-title">IoT & Embedded Systems</h3>
+            <p class="interest-desc">
+              Building interconnected smart sensor networks using ESP32, MQTT protocols, edge computing, and real-time remote telemetry pipelines.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box violet-glow">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3 class="interest-title">Robotics & Automation</h3>
+            <p class="interest-desc">
+              Exploring kinematic control, autonomous sensor-guided navigation, actuator feedback loops, and intelligent robotic system integration.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box blue-glow">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3 class="interest-title">Flutter & Mobile Ecosystems</h3>
+            <p class="interest-desc">
+              Architecting fluid 60fps cross-platform mobile apps with clean state management, modular Clean Architecture, and offline-first databases.
+            </p>
+          </div>
+
+          <div class="interest-card">
+            <div class="interest-icon-box amber-glow">
+              <i class="fa-solid fa-code-compare"></i>
+            </div>
+            <h3 class="interest-title">Competitive Programming & Research</h3>
+            <p class="interest-desc">
+              Honing problem-solving agility with algorithmic challenges, graph theory, dynamic programming, and conducting empirical CSE research.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's Connect & <span class="gradient-text">Collaborate</span></h2>
+          <p class="section-subtitle">Whether you have an exciting software project, research opportunity, or just want to discuss tech — my inbox is always open!</p>
+          <div class="header-line"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column">
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="channel-body">
+                <span class="channel-label">Email Me</span>
+                <a href="mailto:ahrashel1213@gmail.com" class="channel-value">ahrashel1213@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="channel-body">
+                <span class="channel-label">WhatsApp (Instant Chat)</span>
+                <a href="https://wa.me/8801793543783" target="_blank" rel="noopener noreferrer" class="channel-value">+880 1793-543783</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="channel-body">
+                <span class="channel-label">Direct Phone</span>
+                <a href="tel:01793543783" class="channel-value">01793-543783</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="channel-body">
+                <span class="channel-label">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/arman-hossain-59656932a/" target="_blank" rel="noopener noreferrer" class="channel-value">arman-hossain-59656932a</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-card">
+              <div class="channel-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="channel-body">
+                <span class="channel-label">GitHub</span>
+                <a href="https://github.com/Arman11217" target="_blank" rel="noopener noreferrer" class="channel-value">Arman11217</a>
+              </div>
+            </div>
+
+            <div class="quick-contact-actions">
+              <a href="https://wa.me/8801793543783" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp w-100">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-column">
+            <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+              <h3 class="form-title">Send a Direct Message</h3>
+              
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" name="name" class="form-input" placeholder="e.g. John Doe" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. john@example.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <input type="text" id="subject" name="subject" class="form-input" placeholder="e.g. Project Inquiry or Collaboration" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-comment-dots input-icon textarea-icon"></i>
+                  <textarea id="message" name="message" class="form-input form-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit w-100" id="submitBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Send Message</span>
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RESUME MODAL -->
+  <div class="modal-backdrop" id="resumeModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <i class="fa-solid fa-file-invoice modal-icon"></i>
+          <div>
+            <h3>Arman Hossain — Curriculum Vitae</h3>
+            <span class="modal-subtitle">Computer Science & Engineering Student | Software Engineer</span>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="closeResumeModal">&times;</button>
+      </div>
+      <div class="modal-body resume-preview-body">
+        <div class="cv-paper">
+          <div class="cv-header">
+            <div>
+              <h2>Arman Hossain</h2>
+              <p class="cv-role">Computer Science & Engineering Student | Software Engineer</p>
+            </div>
+            <div class="cv-contact-col">
+              <p><i class="fa-solid fa-envelope"></i> ahrashel1213@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i> +880 1793-543783</p>
+              <p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/arman-hossain-59656932a</p>
+              <p><i class="fa-brands fa-github"></i> github.com/Arman11217</p>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-section-title">EDUCATION</h4>
+            <div class="cv-item">
+              <div class="cv-item-header">
+                <strong>B.Sc. in Computer Science & Engineering</strong>
+                <span>Undergraduate</span>
+              </div>
+              <p class="cv-org">Patuakhali Science and Technology University (PSTU)</p>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-section-title">TECHNICAL SKILLS</h4>
+            <p><strong>Languages:</strong> C, C++, Python, Java, JavaScript, Dart, PHP, C#</p>
+            <p><strong>Frameworks:</strong> Flutter, FastAPI, ASP.NET, React</p>
+            <p><strong>AI & ML:</strong> TensorFlow, Keras, CNN, Machine Learning, Computer Vision</p>
+            <p><strong>Databases:</strong> MySQL, SQL Server, Oracle, Firestore</p>
+            <p><strong>IoT / Hardware:</strong> ESP32, Arduino, Raspberry Pi, Bio/Environmental Sensors</p>
+            <p><strong>Tools:</strong> Git, GitHub, VS Code, Android Studio</p>
+          </div>
+
+          <div class="cv-section">
+            <h4 class="cv-section-title">NOTABLE PROJECTS</h4>
+            <div class="cv-item">
+              <div class="cv-item-header">
+                <strong>VitalSense — AI-Powered Remote Health Monitoring App</strong>
+                <a href="https://github.com/Arman11217/VitalSense-AI-Powered-Remote-Health-Monitoring-App.git" target="_blank">GitHub</a>
+              </div>
+              <p>IoT bio-telemetry system integrated with deep neural networks for early disease anomaly detection.</p>
+            </div>
+            <div class="cv-item">
+              <div class="cv-item-header">
+                <strong>PSTU Blended Learning Center (Flutter App & .NET)</strong>
+                <a href="https://github.com/Arman11217/PSTU-Blended-Learning-Center-Flutter-App.git" target="_blank">GitHub</a>
+              </div>
+              <p>University-grade digital learning platform across Flutter mobile and enterprise C# .NET architecture.</p>
+            </div>
+            <div class="cv-item">
+              <div class="cv-item-header">
+                <strong>ElektroVote — Secure Digital Voting Platform</strong>
+                <a href="https://github.com/Arman11217/ElektroVote.git" target="_blank">GitHub</a>
+              </div>
+              <p>Cryptographically secured voting application ensuring election transparency and real-time tallying.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="window.print()">
+          <i class="fa-solid fa-print"></i> Print / Save as PDF
+        </button>
+        <a href="mailto:ahrashel1213@gmail.com?subject=Resume%20Request%20for%20Arman%20Hossain" class="btn btn-primary">
+          <i class="fa-solid fa-envelope"></i> Request Updated PDF via Email
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATE LIGHTBOX MODAL -->
+  <div class="modal-backdrop" id="certModal">
+    <div class="modal-dialog cert-modal-dialog">
+      <div class="modal-header">
+        <h3 id="certModalTitle">Certificate Preview</h3>
+        <button class="modal-close-btn" onclick="closeCertModal()">&times;</button>
+      </div>
+      <div class="modal-body cert-modal-body">
+        <img src="" alt="Certificate Preview" id="certModalImg" />
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <span class="logo-symbol">&lt;/&gt;</span>
+          <span class="logo-name">Arman<span class="highlight">.dev</span></span>
+        </div>
+        <p class="footer-tagline">Crafting scalable software, modern mobile experiences, and smart AI solutions.</p>
+      </div>
+
+      <div class="footer-socials">
+        <a href="https://github.com/Arman11217" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arman-hossain-59656932a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/ArmanHossain.26" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://wa.me/8801793543783" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="mailto:ahrashel1213@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <div class="footer-right">
+        <p>&copy; <span id="currentYear"></span> Arman Hossain. All rights reserved.</p>
+        <p class="pstu-badge">CSE • Patuakhali Science and Technology University</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back To Top Button -->
+  <button class="back-to-top" id="backToTop" title="Back to Top" aria-label="Back to Top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
